@@ -13,6 +13,89 @@
 
 </head>
 <body>
-    <h1>Hello World</h1>
+    <!-- Button Navigate -->
+    <header>
+        <div class="btm-nav">
+            <button class="bg-pink-200 text-pink-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+              <span class="btm-nav-label">Home</span>
+            </button>
+            <button class="active bg-neutral text-neutral-content">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              <span class="btm-nav-label">Do Shopping Js</span>
+            </button>
+            <button class="bg-teal-200 text-teal-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>
+              <span class="btm-nav-label">Statics</span>
+            </button>
+        </div>
+    </header>
+    <section class="w-9/12 mx-auto mt-10">
+        <div class="grid grid-cols-2 gap-4">
+          <!-- All Products -->
+            <div class="grid grid-cols-2 gap-4">
+              <!-- Card 1 -->
+              <div class="card card-compact w-60 bg-base-100 shadow-xl">
+                <figure><img 
+                  class="w-full h-40"
+                  src="https://images.pexels.com/photos/585753/pexels-photo-585753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                  alt="Coffee" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Coffee</h2>
+                  <p>price: $<span>100</span></p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Card 2 -->
+              <div class="card card-compact w-60 bg-base-100 shadow-xl">
+                <figure><img 
+                  class="w-full h-40"
+                  src="https://images.pexels.com/photos/259955/pexels-photo-259955.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  alt="Coffee" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Tea</h2>
+                  <p>price: $<span>80</span></p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="card card-compact w-60 bg-base-100 shadow-xl">
+                <figure><img
+                  class="w-full h-40" 
+                  src="https://images.pexels.com/photos/158053/fresh-orange-juice-squeezed-refreshing-citrus-158053.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  alt="Coffee" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Orange Juice</h2>
+                  <p>price: $<span>120</span></p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="card card-compact w-60 bg-base-100 shadow-xl">
+                <figure><img
+                  class="w-full h-40" 
+                  src="https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                  alt="Coffee" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Ice Cream</h2>
+                  <p>price: $<span>70</span></p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <!-- ... -->
+            <div>Product Card</div>
+          </div>
+    </section>
 </body>
 </html>
