@@ -31,7 +31,7 @@
         </div>
     </header>
     <section class="w-9/12 mx-auto my-10">
-        <div class="grid grid-cols-2 gap-4 pb-10">
+        <div class="grid grid-cols-2 divide-x  gap-4 pb-10">
           <!-- All Products -->
             <div class="grid grid-cols-2 gap-4">
               <!-- Card 1 -->
@@ -44,7 +44,9 @@
                   <h2 class="card-title">Coffee</h2>
                   <p>price: $<span>100</span></p>
                   <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
+                    <button 
+                    onclick="addToCart()"
+                    class="btn btn-primary">Buy Now</button>
                   </div>
                 </div>
               </div>
@@ -109,10 +111,25 @@
               
             </div>
             <!-- Product Card -->
-            <div>
-              <h1>Total Added Products <span>0</span></h1>
+            <div class="">
+              <h1 class="text-4xl text-center">Total Added Products <span class="text-blue-700">0</span></h1>
+              <!-- Table -->
+              <div class="overflow-x-auto">
+                <table class="table table-zebra w-full">
+                  <!-- head -->
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Name</th>
+                      <th>Price</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
             </div>
           </div>
     </section>
+    <script src="./Javascript/shopping.js"></script>
 </body>
 </html>
