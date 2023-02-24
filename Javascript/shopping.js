@@ -26,8 +26,8 @@ function displayProduct(cartProduct) {
     const tr = document.createElement("tr");
     tr.innerHTML = `
     <th></th>
-    <td>Total Price</td>
-    <td>${totalPrice}</td>
+    <th>Total Price</th>
+    <th>${totalPrice}</th>
     `;
     tableBody.appendChild(tr);
 }
