@@ -15,7 +15,7 @@
 <body>
     <!-- Button Navigate -->
     <header>
-        <div class="btm-nav">
+        <div class="btm-nav z-10">
             <button class="bg-pink-200 text-pink-600">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
               <span class="btm-nav-label">Home</span>
@@ -30,12 +30,12 @@
             </button>
         </div>
     </header>
-    <section class="w-9/12 mx-auto mt-10">
-        <div class="grid grid-cols-2 gap-4">
+    <section class="w-9/12 mx-auto my-10">
+        <div class="grid grid-cols-2 gap-4 pb-10">
           <!-- All Products -->
             <div class="grid grid-cols-2 gap-4">
               <!-- Card 1 -->
-              <div class="card card-compact w-60 bg-base-100 shadow-xl">
+              <div class="card card-compact w-full bg-base-100 shadow-xl">
                 <figure><img 
                   class="w-full h-40"
                   src="https://images.pexels.com/photos/585753/pexels-photo-585753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
@@ -50,7 +50,7 @@
               </div>
               
               <!-- Card 2 -->
-              <div class="card card-compact w-60 bg-base-100 shadow-xl">
+              <div class="card card-compact w-full bg-base-100 shadow-xl">
                 <figure><img 
                   class="w-full h-40"
                   src="https://images.pexels.com/photos/259955/pexels-photo-259955.jpeg?auto=compress&cs=tinysrgb&w=600" 
@@ -64,7 +64,7 @@
                 </div>
               </div>
               <!-- Card 3 -->
-              <div class="card card-compact w-60 bg-base-100 shadow-xl">
+              <div class="card card-compact w-full bg-base-100 shadow-xl">
                 <figure><img
                   class="w-full h-40" 
                   src="https://images.pexels.com/photos/158053/fresh-orange-juice-squeezed-refreshing-citrus-158053.jpeg?auto=compress&cs=tinysrgb&w=600" 
@@ -78,7 +78,7 @@
                 </div>
               </div>
               <!-- Card 4 -->
-              <div class="card card-compact w-60 bg-base-100 shadow-xl">
+              <div class="card card-compact w-full bg-base-100 shadow-xl">
                 <figure><img
                   class="w-full h-40" 
                   src="https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
@@ -91,10 +91,27 @@
                   </div>
                 </div>
               </div>
+
+               <!-- Card 5 -->
+               <div class="card card-compact w-full bg-base-100 shadow-xl">
+                <figure><img
+                  class="w-full h-40" 
+                  src="https://images.pexels.com/photos/11209766/pexels-photo-11209766.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  alt="Curd" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Curd</h2>
+                  <p>price: $<span>70</span></p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
               
             </div>
-            <!-- ... -->
-            <div>Product Card</div>
+            <!-- Product Card -->
+            <div>
+              <h1>Total Added Products <span>0</span></h1>
+            </div>
           </div>
     </section>
 </body>
